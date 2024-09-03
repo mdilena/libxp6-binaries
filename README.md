@@ -6,7 +6,7 @@ libxp6 binaries for Debian.
 
 When re-building the package for a different distribution, check that the compat level is still valid and has not being deprecated, by looking up at [Compat Upgrade Checklist](https://manpages.debian.org/testing/debhelper/debhelper-compat-upgrade-checklist.7.en.html). This needs to be done for both libXp6 and its dependencies.
 
-Make sure to build `x11proto-print` first, as that's a required dependency at build time. Debian packages can be build by navigating to the source code folder and running:
+Make sure to build `x11proto-print` first, as that's a required dependency at build time. Debian packages can be built by navigating to the source code folder and running:
 
 ```bash
 debuild -b -uc -us
